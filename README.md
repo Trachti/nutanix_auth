@@ -1,14 +1,14 @@
 # Basic Auth Header Generator
 
-Ein kleines Python-Skript, das aus einem Benutzernamen und einem Passwort einen HTTP-`Basic Authorization`-Header erzeugt.
+A small Python script that generates an HTTP `Basic Authorization` header from a username and password.
 
-## Beschreibung
+## Description
 
-Dieses Repository enthält ein minimalistisches Beispiel dafür, wie Zugangsdaten im Format `username:password` per Base64 kodiert und anschließend als `Basic`-Auth-Header ausgegeben werden.
+This repository contains a minimal example of how to encode credentials in the `username:password` format with Base64 and print them as a `Basic` authentication header.
 
-Das Skript nutzt ausschließlich die Python-Standardbibliothek und benötigt keine externen Abhängigkeiten.
+The script uses only the Python standard library and does not require any external dependencies.
 
-## Dateiübersicht
+## Files
 
 ```text
 .
@@ -19,41 +19,41 @@ Das Skript nutzt ausschließlich die Python-Standardbibliothek und benötigt kei
 └── LICENSE
 ```
 
-## Voraussetzungen
+## Requirements
 
 - Python 3.x
 
 ## Installation
 
-Repository klonen:
+Clone the repository:
 
 ```bash
 git clone https://github.com/Trachti/basic-auth-header-generator.git
 cd basic-auth-header-generator
 ```
 
-Es müssen keine Pakete installiert werden, da nur die Standardbibliothek verwendet wird.
+No packages need to be installed because the script only uses the Python standard library.
 
-## Verwendung
+## Usage
 
-Skript ausführen:
+Run the script:
 
 ```bash
 python basic_auth_header.py
 ```
 
-Beispielausgabe:
+Example output:
 
 ```text
 Basic dXNlcm5hbWU6cGFzc3dvcmQ=
 ```
 
-## Sicherheitshinweis
+## Security Notice
 
-Dieses Skript ist ein Lern- und Demonstrationsbeispiel. Speichere keine echten Passwörter, API-Schlüssel oder Zugangsdaten direkt im Quellcode und lade sie nicht öffentlich auf GitHub hoch.
+This script is intended for learning and demonstration purposes. Do not store real passwords, API keys, or credentials directly in source code, and do not upload them to a public GitHub repository.
 
-Für echte Projekte sollten Zugangsdaten zum Beispiel über Umgebungsvariablen, Secret-Manager oder sichere Konfigurationsmechanismen verwaltet werden.
+For real projects, credentials should be managed through environment variables, secret managers, or other secure configuration mechanisms.
 
-## Lizenz
+## License
 
-Dieses Projekt steht unter der MIT-Lizenz. Details findest du in der Datei `LICENSE`.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
