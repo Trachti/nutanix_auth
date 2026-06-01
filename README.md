@@ -28,7 +28,7 @@ Das Skript nutzt ausschließlich die Python-Standardbibliothek und benötigt kei
 Repository klonen:
 
 ```bash
-git clone https://github.com/DEIN-USERNAME/basic-auth-header-generator.git
+git clone https://github.com/Trachti/basic-auth-header-generator.git
 cd basic-auth-header-generator
 ```
 
